@@ -8,4 +8,4 @@ which nameOfTheCommand
 cat emp.txt | head -20 | tail -10
 
 # Get the count of all the unique rows in the file?
-cat emp.txt | sort -u | wc -|
+cat emp.txt | sort -u | wc -l
