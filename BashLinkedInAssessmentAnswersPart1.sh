@@ -33,6 +33,16 @@ echo "1 2 3" | awk '{for (i=1; i<=NF; i++) s=s+$i};END {print s}'
 find / -name "finance.db" 1>results.txt 2>/dev/null
 # Answer: information sent to the standard error-for example, errors that the find command displays as it runs
 
+# Which arithmetic expression will give the most precise answer?
+var=$(echo 'scale=2; 10 / 8' | bc)
+
+# What is the result of this script?
+txt=Penguins
+[[ $txt =~ [a-z]{8} ]]; echo $?
+# 1, representing ‘false’, because the variable “txt” does not contain eight lowercase letters between a and z
+
+
+
 # To permanently remove empty lines from a file called textfile, which command could you use?
 sed -i '/^$/d' textfile
 
