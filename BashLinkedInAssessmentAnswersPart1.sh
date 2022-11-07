@@ -48,4 +48,14 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 
 # If file.sql holds SQL statements to be executed, what will be in file.txt?
 mysql < file.sql > file.txt
-# Answer: the non-error output of MySQL command
+# Answer: the non-error output of the MySQL command
+
+# How does the SUID or setuid affect executable commands?
+# Answer: When the command is executed, its running privileges elevate to the user owner of the command.
+
+# In order to extract text from the first column of file called textfile, which command would you use?
+cat textfile | awk '{print $1}'
+
+# What is the keyboard shortcut to call up the Bash history search as shown below?
+# (reverse-i-search)`':
+# Ctrl + R
