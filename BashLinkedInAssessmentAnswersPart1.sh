@@ -68,6 +68,14 @@ txt=Penguins
 [[ $txt =~ [a-z]{8} ]]; echo $?
 # 1, representing ‘false’, because the variable “txt” does not contain eight lowercase letters between a and z
 
+# How would you change your Bash shell prompt to the following? HAL>
+export PS1="HAL>"
+
+# What is the output of this code?
+VAR="/var/www/html/website.com/html/"
+echo "${VAR#*/html}"
+# ANSWER: /website.com/html/
+
 # Assuming that user1 existed, what would be the result of this command string?
 awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 # Answer: It would show the username, UID, and home directory of user1 separated by hyphens.
