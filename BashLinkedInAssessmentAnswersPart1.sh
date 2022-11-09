@@ -33,16 +33,6 @@ echo "1 2 3" | awk '{for (i=1; i<=NF; i++) s=s+$i};END {print s}'
 find / -name "finance.db" 1>results.txt 2>/dev/null
 # Answer: information sent to the standard error-for example, errors that the find command displays as it runs
 
-# Which arithmetic expression will give the most precise answer?
-var=$(echo 'scale=2; 10 / 8' | bc)
-
-# What is the result of this script?
-txt=Penguins
-[[ $txt =~ [a-z]{8} ]]; echo $?
-# 1, representing ‘false’, because the variable “txt” does not contain eight lowercase letters between a and z
-
-
-
 # To permanently remove empty lines from a file called textfile, which command could you use?
 sed -i '/^$/d' textfile
 
@@ -52,6 +42,19 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 
 # What happens if you use the "set -e" in a Bash script?
 # Answer:  It will cause Bash to exit if a command, list of commands, compound command, or potentially a pipeline returns a nonzero status code.
+
+# Which arithmetic expression will give the most precise answer?
+var=$(echo 'scale=2; 10 / 8' | bc)
+
+# What is the result of this script?
+txt=Penguins
+[[ $txt =~ [a-z]{8} ]]; echo $?
+# 1, representing ‘false’, because the variable “txt” does not contain eight lowercase letters between a and z
+
+# Assuming that user1 existed, what would be the result of this command string?
+awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
+# Answer: It would show the username, UID, and home directory of user1 separated by hyphens.
+
 
 # The **\_\_** keyword pauses the script to get input from standard input.
 # Answer: read
