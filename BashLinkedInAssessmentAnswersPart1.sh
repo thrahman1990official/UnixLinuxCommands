@@ -43,19 +43,6 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 # What happens if you use the "set -e" in a Bash script?
 # Answer:  It will cause Bash to exit if a command, list of commands, compound command, or potentially a pipeline returns a nonzero status code.
 
-# Which arithmetic expression will give the most precise answer?
-var=$(echo 'scale=2; 10 / 8' | bc)
-
-# What is the result of this script?
-txt=Penguins
-[[ $txt =~ [a-z]{8} ]]; echo $?
-# 1, representing ‘false’, because the variable “txt” does not contain eight lowercase letters between a and z
-
-# Assuming that user1 existed, what would be the result of this command string?
-awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
-# Answer: It would show the username, UID, and home directory of user1 separated by hyphens.
-
-
 # The **\_\_** keyword pauses the script to get input from standard input.
 # Answer: read
 
@@ -72,3 +59,15 @@ cat textfile | awk '{print $1}'
 # What is the keyboard shortcut to call up the Bash history search as shown below?
 # (reverse-i-search)`':
 # Ctrl + R
+
+# Which arithmetic expression will give the most precise answer?
+var=$(echo 'scale=2; 10 / 8' | bc)
+
+# What is the result of this script?
+txt=Penguins
+[[ $txt =~ [a-z]{8} ]]; echo $?
+# 1, representing ‘false’, because the variable “txt” does not contain eight lowercase letters between a and z
+
+# Assuming that user1 existed, what would be the result of this command string?
+awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
+# Answer: It would show the username, UID, and home directory of user1 separated by hyphens.
