@@ -40,6 +40,10 @@ sed -i '/^$/d' textfile
 awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 # Answer: It would show the username, UID, and home directory of user1 separated by hyphens.
 
+# Assuming that user1 existed, what would be the result of this command string?
+awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
+# Answer: It would show the username, UID, and home directory of user1 separated by hyphens.
+
 # What happens if you use the "set -e" in a Bash script?
 # Answer:  It will cause Bash to exit if a command, list of commands, compound command, or potentially a pipeline returns a nonzero status code.
 
@@ -76,6 +80,5 @@ VAR="/var/www/html/website.com/html/"
 echo "${VAR#*/html}"
 # ANSWER: /website.com/html/
 
-# Assuming that user1 existed, what would be the result of this command string?
-awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
-# Answer: It would show the username, UID, and home directory of user1 separated by hyphens.
+# If prompted for text at the standard input, you can tell the command you’re done entering text with what key combination?
+# Ctrl + D (Windows) or Command + D (Mac)
