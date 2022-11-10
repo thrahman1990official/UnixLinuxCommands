@@ -82,3 +82,12 @@ echo "${VAR#*/html}"
 
 # If prompted for text at the standard input, you can tell the command you’re done entering text with what key combination?
 # Ctrl + D (Windows) or Command + D (Mac)
+
+# In order for a Bash script to be executed like an OS command, it should start with a shebang line. What does this look like?
+#!/usr/bin/env bash
+
+# What line of Bash script probably produced the output shown below?
+# Output: The date is: Sun Mar 24 12:30:06 CST 2019!
+echo "The date is: $(date)!"
+
+
