@@ -94,9 +94,16 @@ echo "The date is: $(date)!"
 ./demo.sh
 ~/demo.sh
 bash demo.sh
-
-# Answer: B, C, E
+# ANSWER: B, C, E
 
 # How could you get a list of all .html files in your tree?
 find . -name \*.html -print
 
+# What would be in out.txt?
+cat < in.txt > out.txt
+# ANSWER: It would be the contents of in.txt.
+
+# What does this bash statement do?
+(( $a == $b ))
+echo $?
+# It tests whether the values of variables $a and $b are equal.
