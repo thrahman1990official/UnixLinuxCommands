@@ -95,4 +95,8 @@ echo "The date is: $(date)!"
 ~/demo.sh
 bash demo.sh
 
-#Answer: B, C, E
+# Answer: B, C, E
+
+# How could you get a list of all .html files in your tree?
+find . -name \*.html -print
+
