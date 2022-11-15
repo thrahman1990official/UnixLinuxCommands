@@ -91,3 +91,8 @@ echo "${VAR#*/html}"
 echo "The date is: $(date)!"
 
 # Suppose your current working directory is your home directory. How could you run the script demo.sh that is located in your home directory? Find three correct answers.
+./demo.sh
+~/demo.sh
+bash demo.sh
+
+#Answer: B, C, E
