@@ -26,5 +26,20 @@ uname -a
 uname -r
 #A3 BELOW (NOTE: BELOW ANSWER ONLY APPLIES IF YOU HAVE REDHAT VERSION OF LINUX NOT OTHER VERSIONS OF LINUX)
 cat /etc/redhat-release
-
+#A4 BELOW
+uptime
+#A5 BELOW
+hostname
+#A6 BELOW
+hostname -I
+#A7 BELOW
+last reboot
+#A8 BELOW
+date
+#A9 BELOW
+cal
+#A10 BELOW
+w
+#A11 BELOW
+whoami
 
