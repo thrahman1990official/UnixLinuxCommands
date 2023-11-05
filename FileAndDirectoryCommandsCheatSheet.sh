@@ -32,36 +32,56 @@
 
 #Q17 -> DISPLAY LAST 10 LINES OF FILE AND FOLLOW FILES AS IT GROWS
 
-#A1 -> ls -al
+#A1 -> 
+ls -al
 
-#A2 -> pwd
+#A2 -> 
+pwd
 
-#A3 -> mkdir directory or mdkir folderName
+#A3 -> 
+mkdir directory #or 
+mdkir folderName
 
-#A4 -> rm file.extension
+#A4 -> 
+rm file.extension
 
-#A5 -> rm -r directory or rm -r folderName
+#A5 -> 
+rm -r directory #or 
+rm -r folderName
 
-#A6 -> rm -r file.extension
+#A6 -> 
+rm -r file.extension
 
-#A7 -> rm -rf directory or rm -rf folderName
+#A7 -> 
+rm -rf directory #or 
+rm -rf folderName
 
-#A8 -> cp file1.extension file2.extension
+#A8 -> 
+cp file1.extension file2.extension
 
-#A9 -> cp -r source_directory destination
+#A9 -> 
+cp -r source_directory destination
 
-#A10 -> mv file1.extension file2.extension
+#A10 -> 
+mv file1.extension file2.extension
 
-#A11 -> ln -s /path/to/file linkname
+#A11 -> 
+ln -s /path/to/file linkname
 
-#A12 -> touch file.extension
+#A12 -> 
+touch file.extension
 
-#A13 -> cat file.extension
+#A13 -> 
+cat file.extension
 
-#A14 -> less file.extension
+#A14 -> 
+less file.extension
 
-#A15 -> head file.extension
+#A15 -> 
+head file.extension
 
-#A16 -> tail file.extension
+#A16 -> 
+tail file.extension
 
-#A17 -> tail -f file.extension
+#A17 -> 
+tail -f file.extension
