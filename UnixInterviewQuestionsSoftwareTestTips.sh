@@ -13,3 +13,4 @@
 #12) How do you view contents of file page by page in UNIX-LINUX?
 #13) What's symbolic link in UNIX-LINUX?
 #14) Explain grep command in UNIX-LINUX?
+#15) How do you find files in UNIX-LINUX based on Various-Criteria?
