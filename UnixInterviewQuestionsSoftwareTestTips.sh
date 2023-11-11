@@ -6,3 +6,6 @@
 #5) Explain cd command in UNIX?
 #6) How do you copy files in UNIX?
 #7) Explain purpose of mv command?
+#8) How do you remove file in UNIX?
+#9) Purpose of rmdir command?
+#10) How do you create empty file in UNIX?
