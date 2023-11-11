@@ -19,3 +19,5 @@
 #18) Explain purpose of Top command in UNIX-LINUX?
 #19) How do you check disk space usage in UNIX-LINUX?
 #20) What is a Crob Job In Unix?
+#21) Explain purpose of chmod command?
+#22) How do you change ownership of file in UNIX-LINUX?
