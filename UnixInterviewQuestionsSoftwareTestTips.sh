@@ -16,3 +16,6 @@
 #15) How do you find files in UNIX-LINUX based on Various-Criteria?
 #16) What's purpose of tar command in UNIX-LINUX?
 #17) How do you compress & decompress files in UNIX-LINUX?
+#18) Explain purpose of Top command in UNIX-LINUX?
+#19) How do you check disk space usage in UNIX-LINUX?
+#20) What is a Crob Job In Unix?
