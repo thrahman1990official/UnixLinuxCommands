@@ -14,3 +14,5 @@
 #13) What's symbolic link in UNIX-LINUX?
 #14) Explain grep command in UNIX-LINUX?
 #15) How do you find files in UNIX-LINUX based on Various-Criteria?
+#16) What's purpose of tar command in UNIX-LINUX?
+#17) How do you compress & decompress files in UNIX-LINUX?
