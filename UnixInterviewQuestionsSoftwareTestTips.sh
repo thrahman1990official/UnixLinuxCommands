@@ -21,3 +21,6 @@
 #20) What is a Crob Job In Unix?
 #21) Explain purpose of chmod command?
 #22) How do you change ownership of file in UNIX-LINUX?
+#23) What's purpose of ps command in UNIX-LINX?
+#24) How do you kill process in UNIX?
+#25) Explain the purpose of ssh command?
