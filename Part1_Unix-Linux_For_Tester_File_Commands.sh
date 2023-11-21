@@ -10,3 +10,6 @@ cat >>fileName.txt
 
 #Below is an example of copy command
 cp fileOld.txt fileNew.txt
+
+#Below is an example of move command which is used for renaming file (changing file name), renaming directory, and moving files from one directory to another directory
+mv fileToDelete.txt newFileToCreate.txt
