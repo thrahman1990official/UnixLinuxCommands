@@ -12,4 +12,11 @@ cat >>fileName.txt
 cp fileOld.txt fileNew.txt
 
 #Below is an example of move command which is used for renaming file (changing file name), renaming directory, and moving files from one directory to another directory
-mv fileToDelete.txt newFileToCreate.txt
+mv fileOriginalLocation.txt fileNewLocation.txt
+
+#Below are examples of removing file and removing directory/folder
+#command rm for file, but it cannot be used for folder/directory
+rm fileToDelete.txt
+
+#command rm for folder/directory, -r means recursion, it can also be used for files
+rm -r directoryToDelete.txt
