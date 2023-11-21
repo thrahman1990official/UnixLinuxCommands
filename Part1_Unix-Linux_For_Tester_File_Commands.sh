@@ -7,3 +7,6 @@ cat newFile.txt
 cat fileName1.txt fileName2.txt
 #Appending data to existing file
 cat >>fileName.txt
+
+#Below is an example of copy command
+cp fileOld.txt fileNew.txt
