@@ -12,3 +12,7 @@ mkdir -p directoryName/subDirectoryName/subDirectoryOfSubDirectory
 cd directoryName
 #if we use pwd command we can get all the sub-directories
 cd directoryName/subDirectoryName/subDirectoryOfSubDirectory
+#command used for going one level back, we use
+cd ..
+#command used for going to home directory
+cd ~
