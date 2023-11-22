@@ -16,3 +16,6 @@ cd directoryName/subDirectoryName/subDirectoryOfSubDirectory
 cd ..
 #command used for going to home directory
 cd ~
+
+#remove directory command for EMPTY directories only (NOTE: cannot be used for files or directories with sub-directories/files)
+rmdir directoryName
