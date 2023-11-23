@@ -11,3 +11,6 @@ tail -n 20 fileName.txt
 
 #for example if you want to first take the first 15 lines and from those specific 15 lines you want to capture the last 6 lines
 head -15 fileName.txt | tail -6
+
+#let us say we use long list command and take the first 3 lines from the list that is being displayed
+ls -l | head -3
