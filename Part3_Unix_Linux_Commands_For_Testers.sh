@@ -20,5 +20,5 @@ ls -R
 ls *.extension
 #so in the case for displaying text files only, it will be
 ls *.txt
-#to find list of characters based on range
+#to find list of characters based on range for if you want list of characters based on the first letter(in this case 'a') to last letter(in this case 'z')
 ls [a-z]*.*
