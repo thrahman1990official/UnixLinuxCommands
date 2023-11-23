@@ -20,3 +20,5 @@ ls -R
 ls *.extension
 #so in the case for displaying text files only, it will be
 ls *.txt
+#to find list of characters based on range
+ls [a-z]*.*
