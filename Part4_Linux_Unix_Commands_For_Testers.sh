@@ -14,3 +14,6 @@ head -15 fileName.txt | tail -6
 
 #let us say we use long list command and take the first 3 lines from the list that is being displayed
 ls -l | head -3
+
+#let us say we use long list command and take the last 10 lines from the list that is being displayed
+ls -l | tail
