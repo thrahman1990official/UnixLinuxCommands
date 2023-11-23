@@ -10,5 +10,7 @@ pwd
 ls
 #below is command that displays list of files with other details such as owner permission, owner name, date created/modified and if it is a file it will display extensions
 ls -l
-#below is command that displays all files and folders in reverse order
+#below is command that displays all files and folders/directories in reverse order
 ls -r
+#below is command that displays all files, folders/directories, sub-directories, in reverse order
+ls -R
