@@ -6,3 +6,5 @@ head -n 20 fileName.txt
 
 #the default command for displaying last 10 lines
 tail fileName.txt
+#but if we want to use the bottom 20 commands
+tail -n 20 fileName.txt
