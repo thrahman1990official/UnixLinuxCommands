@@ -7,3 +7,7 @@ touch .myHiddenFile.txt
 pwd
 
 #below is the command showing the list of files and/or folder/directories with their names only
+ls
+
+#below is command that displays list of files with other details such as owner permission, owner name, date created/modified and if it is a file it will display extensions
+ls -l
