@@ -18,3 +18,6 @@ ls -l | head -3
 
 #let us say we use long list command and take the last 10 lines from the list that is being displayed
 ls -l | tail
+
+#more let us see more content page by page
+more fileName.txt
