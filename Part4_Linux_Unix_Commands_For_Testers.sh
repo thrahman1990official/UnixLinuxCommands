@@ -21,3 +21,6 @@ ls -l | tail
 
 #more let us see more content page by page
 more fileName.txt
+
+#less command shows files contents one screen at a time
+less fileName.txt
