@@ -9,3 +9,7 @@ hostname
 
 #unix command displays the I.P. Address of the host of the computer
 hostname -i
+
+#uptime command returns multiple details which returns the current time, which time it is active, how many users are currently running, load average time
+uptime
+
