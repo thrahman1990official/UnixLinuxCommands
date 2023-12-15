@@ -19,3 +19,14 @@ grep
 sudo
 #Copies Files
 cp
+
+#deletes files
+rm
+#similar to ifconfig but used for for wireless communications
+ifconfig
+#displays current directory
+pwd
+#shuts down linux
+shutdown
+#changes file owner and group
+chown
