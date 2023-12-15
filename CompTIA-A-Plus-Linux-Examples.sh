@@ -9,7 +9,7 @@ mv
 #Starts new shell as another user
 su
 
-#Allows you to display and configure information related to Network Interface Card in UNIX-LINUX environment
+#Allows to display and configure information related to Network Interface Card in UNIX-LINUX environment
 ifconfig 
 #Changes file permissions
 chmod
