@@ -8,3 +8,14 @@ kill
 mv
 #Starts new shell as another user
 su
+
+#Allows you to display and configure information related to Network Interface Card in UNIX-LINUX environment
+ifconfig 
+#Changes file permissions
+chmod
+#Searches for regular expressions in text file
+grep
+#Runs command as another user (usually root user)
+sudo
+#Copies Files
+copy
