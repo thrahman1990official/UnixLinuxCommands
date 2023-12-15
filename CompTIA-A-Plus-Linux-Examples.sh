@@ -18,4 +18,4 @@ grep
 #Runs command as another user (usually root user)
 sudo
 #Copies Files
-copy
+cp
