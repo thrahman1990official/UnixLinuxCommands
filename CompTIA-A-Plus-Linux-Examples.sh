@@ -22,7 +22,7 @@ cp
 
 #deletes files
 rm
-#similar to ifconfig but used for for wireless communications
+#similar to ifconfig but used for wireless communications
 ifconfig
 #displays current directory
 pwd
