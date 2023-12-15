@@ -30,3 +30,16 @@ pwd
 shutdown
 #changes file owner and group
 chown
+
+#searches for text in file hierarchy
+find
+#starts visual file editor, which can be used to edite files
+vi
+#copies blocks of data from one file to another
+dd
+#display list of currently running processes
+ps
+#display running processes, similar to windows task manager
+top
+#changes password
+passwd
