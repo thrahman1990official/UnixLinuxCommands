@@ -14,3 +14,18 @@ cp fi1e1 file2
 //above command copies file from one location to another
 mkdir newdir
 //above command creates new directory
+clear
+//above command used to clear command line interface of all text
+cat file1
+//above command used to view contents of file without editing options
+less file1
+//above command used to view contents of file that won't fit one one screen
+Q
+//Q key can be used to exit
+vi file.txt
+//default text editor in linux
+nano
+//simple and user-friendly text edite that require installation
+gedit
+//GUI text editor that requires installation of desktop environment like Gnome or KDE
+shutdown -h now
