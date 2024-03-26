@@ -32,3 +32,5 @@ shutdown -h now
 //halt the system and shutdown all the way to power off state
 shutdown -r now
 //shutdown and reboot the system now
+sudo su userName
+//allows to switch user credentials
