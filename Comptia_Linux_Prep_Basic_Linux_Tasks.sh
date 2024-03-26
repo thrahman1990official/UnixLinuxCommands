@@ -10,3 +10,5 @@ pwd
 //cd changes current working directory to another directory
 cd /etc
 //will change my directory to the /etc directory
+cp fi1e1 file2
+//copies file from one location to another
