@@ -30,3 +30,5 @@ gedit
 //GUI text editor that requires installation of desktop environment like Gnome or KDE
 shutdown -h now
 //halt the system and shutdown all the way to power off state
+shutdown -r now
+//shutdown and reboot the system now
