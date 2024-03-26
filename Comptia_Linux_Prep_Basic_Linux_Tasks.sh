@@ -12,5 +12,5 @@ cd /etc
 //will change my directory to the /etc directory
 cp fi1e1 file2
 //above command copies file from one location to another
-mkdir
+mkdir newdir
 //above command creates new directory
