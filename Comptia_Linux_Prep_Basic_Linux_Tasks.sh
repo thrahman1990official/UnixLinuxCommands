@@ -11,4 +11,6 @@ pwd
 cd /etc
 //will change my directory to the /etc directory
 cp fi1e1 file2
-//copies file from one location to another
+//above command copies file from one location to another
+mkdir
+//above command creates new directory
