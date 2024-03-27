@@ -1,3 +1,5 @@
+//CompTIA Linux+ UNIX-LINUX Course
+
 //Bash Commands
 //Echo command repeats input back to the screen
 echo "Good Morning!"
@@ -34,3 +36,20 @@ shutdown -r now
 //shutdown and reboot the system now
 sudo su userName
 //allows to switch user credentials
+
+//Entering Shell Commands
+echo 'Hello, World!'
+//should display >> Hello, World! <<
+//in the terminal
+
+fsck
+//command used to check and repair linux file system
+
+//'Home Key' key moves to beginning page
+//'End Key' key moves to end page
+//'Page Up' key scrolls up one page
+//'Page Down' key scrolls down one page
+//The forward slash '/' key Begins search a text or string
+//The 'n' key moves you to the next occurrence 
+//The 'p' key move you to the previous occurrence
+//The 'q' key quits man page
