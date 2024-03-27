@@ -21,8 +21,8 @@ clear
 cat file1
 //above command used to view contents of file without editing options
 less file1
-//above command used to view contents of file that won't fit one one screen
-Q
+//above command used to view contents of file that will not fit one one screen
+
 //Q key can be used to exit
 vi file.txt
 //default text editor in linux
@@ -39,7 +39,7 @@ sudo su userName
 
 //Entering Shell Commands
 echo 'Hello, World!'
-//should display >> Hello, World! <<
+//should display Hello, World!
 //in the terminal
 
 fsck
@@ -53,3 +53,15 @@ fsck
 //The 'n' key moves you to the next occurrence 
 //The 'p' key move you to the previous occurrence
 //The 'q' key quits man page
+
+Apropos
+//Used to search name section of all man pages
+Whatis
+//Used to display brief description of given commands
+Info
+//Used to display information page of command
+man -h
+man --help
+//will get you help on the man pages
+
+
