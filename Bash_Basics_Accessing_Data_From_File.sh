@@ -12,11 +12,25 @@ chgrp yourUserName fileToExtractData
 
 #create a file with whatever logical name you can choose
 vi fileToExtractData
-#use shift+I to insert text
+#use shift+I to give insert permission
 
 #!/bin/bash
 # Author: Talhahshah Rahmansultan
 # Date: 3/29/2024
 # Description: This script will pill only error messages from /var/log/fileToExtractData
 # Modified: 3/29/24
+grep -i error /home/yourUserName/folderNameForTheFile/fileToExtractData
+# use shift+I remove insert permission
+:wq
+# to exit
+
+vi fileToExtractData
+chmod a+x fileToExtractData
+# make file executable for all users
+./fileToExtactData
+#to run the script
+#use move command to move errors from fileToExtractData to other file and call it fileErrorData
+mv fileToExtractData fileErrorData
+
+
 
