@@ -9,3 +9,14 @@ cd /home/yourUserName/folderNameForTheFile/fileToExtractData
 chown yourUserName fileToExtractData
 #give group permissions to yourUserName to fileToExtractData
 chgrp yourUserName fileToExtractData
+
+#create a file with whatever logical name you can choose
+vi fileToExtractData
+#use shift+I to insert text
+
+#!/bin/bash
+# Author: Talhahshah Rahmansultan
+# Date: 3/29/2024
+# Description: This script will pill only error messages from /var/log/fileToExtractData
+# Modified: 3/29/24
+
