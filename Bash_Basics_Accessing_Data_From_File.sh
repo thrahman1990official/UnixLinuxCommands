@@ -21,7 +21,7 @@ vi fileToExtractData
 # Modified: 3/29/24
 grep -i error /home/yourUserName/folderNameForTheFile/fileToExtractData
 # use shift+I remove insert permission
-:wq
+:wq!
 # to exit
 
 vi fileToExtractData
